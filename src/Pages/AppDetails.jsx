@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
+<<<<<<< HEAD
 import { Link, useLoaderData, useParams } from 'react-router';
+=======
+import { useLoaderData, useParams } from 'react-router';
+>>>>>>> e3992473a096b06251c16c8d53b2ce9e4300e7a4
 import { IoIosStar } from "react-icons/io";
 
 const AppDetails = () => {
@@ -79,10 +83,13 @@ const AppDetails = () => {
         </ul>
       </div>
 
+<<<<<<< HEAD
       <Link className='btn btn-primary bg-base-300 text-black border-none mt-4' to="/">
       Back to All Apps
       </Link>
 
+=======
+>>>>>>> e3992473a096b06251c16c8d53b2ce9e4300e7a4
       {hasInstalledOnce && (
         <div className='mt-6'>
           <h3 className='text-xl font-semibold mb-4'>💬 User Reviews</h3>

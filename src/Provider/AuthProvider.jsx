@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { createContext, useEffect, useState } from 'react';
 export const AuthContext = createContext();
 import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, signInWithPopup, GoogleAuthProvider, updateProfile } from "firebase/auth";
@@ -62,3 +63,16 @@ const AuthProvider = ({ children }) => {
 }
 
 export default AuthProvider;
+=======
+import React from 'react';
+
+const AuthProvider = () => {
+    return (
+        <div>
+            
+        </div>
+    );
+};
+
+export default AuthProvider;
+>>>>>>> e3992473a096b06251c16c8d53b2ce9e4300e7a4

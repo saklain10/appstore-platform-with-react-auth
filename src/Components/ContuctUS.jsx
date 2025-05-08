@@ -4,7 +4,7 @@ const ContactButton = () => {
   return (
     <div className="text-center mt-8">
       <Link to="/contact">
-        <button className="px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition">
+        <button className="px-6 py-3 bg-blue-500 text-white font-bold rounded-lg shadow-md hover:bg-blue-600 transition">
           Contact Us
         </button>
       </Link>

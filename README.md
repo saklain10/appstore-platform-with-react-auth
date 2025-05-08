@@ -1,12 +1,45 @@
-# React + Vite
+# 📱 AppGallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application that showcases various apps where users can browse, install, and leave reviews with ratings. Built with React and Tailwind CSS, it mimics a mini Play Store-like interface for practicing frontend development.
 
-Currently, two official plugins are available:
+## 🚀 Live URL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 [Visit AppGallery Live](https://your-deployment-url.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Purpose
+
+This project was created as a practice ground to strengthen my React.js and frontend development skills. It helps me explore routing, component structuring, state management, and basic form handling—all while building something fun and interactive.
+
+---
+
+## ✨ Key Features
+
+- 🖼️ **App Details View**: Users can click on an app to see full details including name, developer, features, description, and install/uninstall toggle.
+- ⭐ **Rating System**: Users can rate the app using interactive star icons.
+- 💬 **Review Form**: Logged-in users can leave a review with rating and comment. Reviews are displayed with the user’s name and profile photo.
+- ✅ **Auth Integration**: Displays the logged-in user's name and photo using context (`AuthContext`).
+- 🔄 **Dynamic Routing**: Uses `react-router-dom` for routing between pages like Home and App Details.
+- 🧩 **Responsive Design**: Fully responsive UI built using Tailwind CSS for seamless experience across devices.
+
+---
+
+## 🧰 Technologies Used
+
+- ⚛️ **React.js** – Frontend framework for building the UI.
+- 🎨 **Tailwind CSS** – Utility-first CSS for fast styling.
+- 🔗 **React Router DOM** – For page navigation and dynamic route handling.
+- 👤 **Firebase Auth (Assumed)** – For user authentication (login, logout, user info).
+- ⭐ **React Icons** – For displaying star icons (`IoIosStar`).
+- ☁️ **Context API** – For global user state handling (`AuthContext`).
+
+---
+
+## 📦 NPM Packages Used
+
+```bash
+npm install react-router-dom
+npm install react-icons
+npm install firebase
+npm install tailwindcss

@@ -2,16 +2,19 @@ import React from 'react';
 import HeroBanner from '../HeroBanner';
 import AppCards from '../AppCards';
 import { useLoaderData, useParams } from 'react-router';
-import Autoplay from '../HeroBanner';
+import CollectionsSection from './CollectionsSection';
+import ContactButton from '../ContuctUS';
 
 const Home = () => {
-    const {id} = useParams();
+    const { id } = useParams();
     const data = useLoaderData();
-    console.log(id, data)
+
     return (
         <div>
-            <HeroBanner datas={data}></HeroBanner>
-            <AppCards datas={data}></AppCards>
+            <HeroBanner datas={data} />
+            <AppCards datas={data} />
+            <CollectionsSection />
+            <ContactButton></ContactButton>
         </div>
     );
 };

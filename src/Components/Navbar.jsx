@@ -8,7 +8,7 @@ const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
 
   const handleLogout = () => {
-    console.log("user trying to logOut");
+    // console.log("logOut trying");
     logOut()
       .then(() => {
         alert("Logged out");
@@ -56,7 +56,6 @@ const Navbar = () => {
             )}
           </div>
 
-          {/* Show user email if logged in */}
 
           {user?.displayName && <div className="text-sm text-gray-600">{user.displayName}</div>}
 
@@ -64,8 +63,8 @@ const Navbar = () => {
             className="w-10 h-10 rounded-full"
             src={user?.photoURL || 'https://img.icons8.com/?size=100&id=13042&format=png&color=000000'}
             alt="User Icon"
+            title={user?.displayName}
           />
-
 
 
           <div className="lg:block hidden">

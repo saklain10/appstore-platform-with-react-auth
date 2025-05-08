@@ -41,9 +41,9 @@ const HeroBanner = () =>{
 
   return (
     <div
-      className="relative bg-cover bg-center bg-no-repeat text-white mb-10"
+      className="relative bg-cover bg-center bg-no-repeat text-white mb-10 rounded"
       style={{
-        backgroundImage: "url('https://images.unsplash.com/photo-1545239351-ef35f43d514b')",
+        backgroundImage: "url('https://i.ibb.co.com/YTWmRVb6/aaaa.png')",
         minHeight: "400px"
       }}
     >
@@ -60,15 +60,15 @@ const HeroBanner = () =>{
         <Slider {...settings}>
           {slideData.map((app) => (
             <div key={app.id} className="px-2">
-              <div className="bg-white rounded-md overflow-hidden shadow text-black flex flex-col items-center justify-center p-4 h-[320px]">
+              <div className="bg-blue-950 rounded-md overflow-hidden shadow text-black flex flex-col items-center justify-center p-4 h-[320px]">
                 <img
                   src={app.thumbnail}
                   alt={app.name}
                   className="h-40 object-contain mb-3"
                 />
-                <h3 className="text-lg font-bold text-green-600 mb-1">{app.title}</h3>
-                <p className="text-sm text-gray-700 text-center mb-1">{app.desc}</p>
-                <h4 className="text-base font-medium text-blue-700">{app.name}</h4>
+                <h3 className="text-lg font-bold text-green-300 mb-1">{app.title}</h3>
+                <p className="text-sm text-white text-center mb-1">{app.desc}</p>
+                <h4 className="text-base font-medium text-blue-400">{app.name}</h4>
               </div>
             </div>
           ))}

@@ -51,12 +51,8 @@ This project was created as a practice ground to strengthen my React.js and fron
 
 ---
 
-## 📦 NPM Packages Used
+## 📦 How to Run Locally
 
-```bash
-npm install react-router-dom react-icons firebase tailwindcss
-
-🛠️ How to Run Locally
 Follow these steps to run the project on your local machine:
 
 1. Clone the repository

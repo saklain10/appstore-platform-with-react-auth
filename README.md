@@ -56,7 +56,7 @@ This project was created as a practice ground to strengthen my React.js and fron
 Follow these steps to run the project on your local machine:
 
 1. Clone the repository
-git clone https://github.com/your-username/appgallery.git
+https://github.com/saklain10/appstore-platform-with-react-auth/tree/main
 cd appgallery
 
 2. Install dependencies
